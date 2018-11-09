@@ -1,0 +1,56 @@
+{
+  "name": "easy-vue-sketelon",
+  "version": "1.0.0",
+  "description": "vue client render boilerplate for easywebpack-vue",
+  "keywords": [
+    "webpack",
+    "easywebpack",
+    "vue"
+  ],
+  "dependencies": {
+    "axios": "^0.16.2",
+    "vue": "^2.5.13",
+    "vue-router": "^2.7.0",
+    "vuex": "^2.3.1",
+    "vuex-router-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "easywebpack-vue": "^4.0.0",
+    "eslint": "^3.18.0",
+    "eslint-config-eslint": "^4.0.0",
+    "imagemin-webpack-plugin": "^1.5.2",
+    "mocha": "^3.4.2",
+    "node-sass": "^4.5.3",
+    "page-skeleton-webpack-plugin": "^0.10.12",
+    "sass-loader": "^6.0.6"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production easy build prod",
+    "start": "NODE_ENV=development easy start",
+    "lint": "eslint .",
+    "fix": "eslint --fix .",
+    "test": "mocha test",
+    "ci": "npm run lint && npm run cov",
+    "ii": "npm install --registry https://registry.npm.taobao.org"
+  },
+  "ci": {
+    "version": "8, 9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hubcarl/easy-vue-sketelon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hubcarl/easy-vue-sketelon/issues"
+  },
+  "homepage": "https://github.com/hubcarl/easy-vue-sketelon#readme",
+  "author": "hubcarl@126.com",
+  "license": "MIT",
+  "webpack": {
+    "loaders": {}
+  }
+}
