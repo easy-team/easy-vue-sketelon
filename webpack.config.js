@@ -9,10 +9,13 @@ module.exports = {
   template: 'src/view/index.html',
   lib: ['vue', 'vuex', 'axios'],
   plugins: {
+    html: {
+      filename: 'index.html'
+    },
     skeleton: new SkeletonPlugin({
       pathname: path.resolve(__dirname, 'shell'),
-      staticDir: path.resolve(__dirname, 'dist'),
-      routes: ['/app.html']
+      staticDir: path.resolve(__dirname, 'dist/skeleton'),
+      routes: ['/']
     })
   }
 };
