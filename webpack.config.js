@@ -13,8 +13,8 @@ module.exports = {
       filename: 'index.html'
     },
     skeleton: new SkeletonPlugin({
-      pathname: path.resolve(__dirname, 'shell'),
-      staticDir: path.resolve(__dirname, 'dist/skeleton'),
+      pathname: path.resolve(__dirname, 'shell'), // 存储骨架屏代码的文件夹
+      staticDir: path.resolve(__dirname, 'dist'), // 最好和 output 相同
       routes: ['/']
     })
   }
