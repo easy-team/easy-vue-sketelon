@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "cross-env": "^5.0.1",
-    "easywebpack-vue": "^4.0.0",
+    "easywebpack-vue": "next",
     "eslint": "^3.18.0",
     "eslint-config-eslint": "^4.0.0",
     "imagemin-webpack-plugin": "^1.5.2",
